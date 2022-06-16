@@ -9,5 +9,5 @@ tasks:
   - name: run tailscaled
     command:  sudo tailscaled
   - name: run tailscale
-    command: tailscale up --authkey "${TAILSCALE_AUTHKEY}" --hostname "${FITPOD_WORKSPACE_ID}" --accept-dns --exit-node "${EXIT_NODE}}"
+    command: tailscale up --authkey "${TAILSCALE_AUTHKEY}" --hostname "${GITPOD_WORKSPACE_ID}" --accept-dns --exit-node "${EXIT_NODE}"
 
