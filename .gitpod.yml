@@ -3,9 +3,9 @@
 
 tasks:
   #prepare env
-  - init:
-  - name: add direnv
-    command: direnv allow
+  #- init:
+  #- name: add direnv
+  #  command: direnv allow
   - name: run tailscaled
     command:  sudo tailscaled
   - name: run tailscale
