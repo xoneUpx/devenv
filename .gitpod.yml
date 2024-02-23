@@ -13,4 +13,5 @@ tasks:
   - name: run tailscale
     #command: sudo -E tailscale up --authkey "${TAILSCALE_AUTHKEY}" --hostname "${GITPOD_WORKSPACE_ID}" --accept-dns --exit-node "${EXIT_NODE}"
     command: sudo -E tailscale up --authkey "${TAILSCALE_AUTHKEY}" --hostname "${GITPOD_WORKSPACE_ID}"
-
+  - name: install nvim
+    command: sudo apt install neovim
