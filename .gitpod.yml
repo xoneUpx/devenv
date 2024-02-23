@@ -2,7 +2,7 @@
 #  file: .gitpod.docker
 vscode:
   extensions:
-    - asvetliakov.vscode-neovim
+  - asvetliakov.vscode-neovim
 tasks:
   #prepare env
   #- init:
